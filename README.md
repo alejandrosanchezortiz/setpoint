@@ -2,6 +2,13 @@
 
 g++ -o setpoint *.cpp
 
+# Execution
+
+setpoint    -> show a few examples with all the setups  
+setpoint 1  -> setup 1, request P and D to calculate the setpoint  
+setpoint 2  -> setup 3, request D to calculate the setpoint  
+setpoint 3  -> setup 4, request P, G and B to calculate the setpoint  
+
 # Arguments
 
 **P** = Photovoltaics as watts  
